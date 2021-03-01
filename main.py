@@ -9,6 +9,7 @@ def main():
         prog='oddity-revolut-to-mt940',
         description='Convert Revolut CSV-files to MT940 format.')
 
+    args = parser.parse_args()
     #REPLACE IBAN IN THE FOLLOWING LINE
     args.account_iban = 'REPLACE_REAL_IBAN_HERE'
     
